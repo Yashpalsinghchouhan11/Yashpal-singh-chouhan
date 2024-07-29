@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-color {
+  @apply bg-[#222327];
+}
+
+.custom-width {
+  @apply w-[20%];
+}
+.custom-width-2 {
+  @apply w-[80%];
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+.custom-width-3 {
+  @apply w-[10%];
+}
+
+.text-gradient {
+  background: linear-gradient(
+    to right,
+    #4345cd,
+    #b654ce,
+    #e55277
+  ); /* Directly define the background */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
