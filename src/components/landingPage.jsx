@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Profile from "../Image/yashpal_profile.jpg";
+import Profile from "../Image/yashpal_profile.png";
 import html from "../Image/html.png";
 import css from "../Image/css.png";
 import tailwind from "../Image/Tailwind.png";
@@ -13,8 +13,9 @@ import github from "../Image/github.png";
 import git from "../Image/git.png";
 import shopsy from "../Image/shopsy.png";
 import taskManager from "../Image/task-manager.png";
-import interviewease from "../Image/InterviewEase.png";
-import yashpalsingh_resume from '../assets/YashpalSingh_Resume2024.pdf'
+import interviewease from "../Image/interviewEase.png";
+import movieRecommendation from "../Image/movierecommendation.png";
+import yashpalsingh_resume from '../assets/yashpalsingh resume.pdf'
 import MenuIcon from "@mui/icons-material/Menu";
 
 export default function LandingPage() {
@@ -70,18 +71,21 @@ export default function LandingPage() {
           <div className="flex flex-row gap-4 mt-8 cursor-text text-slate-300">
             <a
               href="https://www.linkedin.com/in/yashpal-singh-chouhan-907819224"
+              target="_blank"
               className="underline underline-offset-4"
             >
               Linkedin
             </a>
             <a
               href="https://github.com/Yashpalsinghchouhan11"
+              target="_blank"
               className="underline underline-offset-4"
             >
               GitHub
             </a>
             <a
               href="https://x.com/Yashpal_11"
+              target="_blank"
               className="underline underline-offset-4"
             >
               X
@@ -132,7 +136,7 @@ export default function LandingPage() {
                 Python Intern [Fealty Technologies]
               </h2>
               <h6 className="text-slate-50 font-poppins font-medium my-4">
-                June 2023 - October 2023
+                June 2024 - April 2024
               </h6>
               <p className="flex flex-col items-start text-slate-50 font-sen font-extralight">
                 <span className="">
@@ -157,7 +161,7 @@ export default function LandingPage() {
 
           <div className="grid grid-cols-6 gap-8 p-8 max-md:grid-cols-4 max-md:gap-4">
             <div className="h-24 w-24 bg-white shadow-lg flex items-center justify-center max-md:h-14 max-md:w-14">
-              <img src={html} alt="HTML5" className="bg-cover rounded-lg" />
+              <img src={html} alt="img" className="bg-cover rounded-lg" />
             </div>
             <div className="h-24 w-24 bg-white  shadow-lg flex items-center justify-center max-md:h-14 max-md:w-14">
               <img src={css} alt="css" className="bg-cover rounded-lg" />
@@ -201,7 +205,30 @@ export default function LandingPage() {
           <h2 className="text-center text-3xl font-poppins font-bold text-slate-50 my-8 underline underline-offset-8 underline-slate-500 max-md:text-xl max-md:my-4 max-md:underline-offset-4">
             Projects
           </h2>
+
           <div className="grid grid-cols-4 gap-8 p-8 max-md:grid-cols-2 max-md:gap-4">
+
+            <a
+              href="https://interviewease-iota.vercel.app/"
+              target="_blank"
+              className="bg-zinc-800 p-2 rounded-lg shadow-lg flex flex-col items-center transform transition-transform duration-600 hover:-translate-y-4 hover:scale-110"
+            >
+              <div className="">
+                <img
+                  src={interviewease}
+                  alt="img"
+                  className="rounded-lg h-36 w-52 max-md:h-32 max-md:w-40"
+                />
+              </div>
+              <h2 className=" text-md font-poppins text-slate-300 my-2">
+                InterviewEase
+              </h2>
+              <p className=" text-md font-poppins text-slate-300 my-2">
+                Developed InterviewEase, a web application for users to prepare
+                for theoretical interview questions.
+              </p>
+            </a>
+            
             <a
               href="https://github.com/Yashpalsinghchouhan11"
               target="_blank"
@@ -210,7 +237,7 @@ export default function LandingPage() {
               <div className="">
                 <img
                   src={shopsy}
-                  alt="HTML5"
+                  alt="img"
                   className="rounded-lg h-36 w-52 max-md:h-32 max-md:w-40"
                 />
               </div>
@@ -231,17 +258,16 @@ export default function LandingPage() {
             >
               <div className="">
                 <img
-                  src={interviewease}
-                  alt="HTML5"
+                  src={movieRecommendation}
+                  alt="img"
                   className="rounded-lg h-36 w-52 max-md:h-32 max-md:w-40"
                 />
               </div>
               <h2 className=" text-md font-poppins text-slate-300 my-2">
-                InterviewEase
+                Movie-recommendation-system
               </h2>
               <p className=" text-md font-poppins text-slate-300 my-2">
-                Developed InterviewEase, a web application for users to prepare
-                for theoretical interview questions.
+              the system analysis user preferences and movie tags to provide tailored recommendations.
               </p>
             </a>
             <a
@@ -252,7 +278,7 @@ export default function LandingPage() {
               <div className="">
                 <img
                   src={taskManager}
-                  alt="HTML5"
+                  alt="img"
                   className="rounded-lg h-36 w-52 max-md:h-32 max-md:w-40"
                 />
               </div>
