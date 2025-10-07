@@ -13,7 +13,7 @@ import github from "../Image/github.png";
 import git from "../Image/git.png";
 import shopsy from "../Image/shopsy.png";
 import taskManager from "../Image/task-manager.png";
-import interviewease from "../Image/interviewEase.png";
+import interviewease from "../Image/InterviewEase_home.png";
 import movieRecommendation from "../Image/movierecommendation.png";
 import yashpalsingh_resume from '../assets/yashpalsingh resume.pdf'
 import MenuIcon from "@mui/icons-material/Menu";
